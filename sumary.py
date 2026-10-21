@@ -15,7 +15,7 @@ for line in lines:
     fields = line.split()
 
     if len(fields) > 7:
-        key = fields[4]
+        key = fields[5]
         counts[key] += 1
 
 print("Top 5:")
